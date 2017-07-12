@@ -51,8 +51,9 @@
             android:padding="16dp"
             android:textSize="20sp"
             android:gravity="center"
-            android:text="- period: ~7/23"
-            android:textColor="#ffffff"/>
+            android:text="period: ~7/23"
+            android:textColor="#ffffff"
+            android:background="@color/colorPrimary"/>
 
     </RelativeLayout>
 </android.support.constraint.ConstraintLayout>
