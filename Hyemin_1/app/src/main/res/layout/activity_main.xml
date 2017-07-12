@@ -40,7 +40,8 @@
             android:textSize="20sp"
             android:gravity="center"
             android:text="slack channel: #android"
-            android:textColor="#ffffff"/>
+            android:textColor="#ffffff"
+            android:background="@color/colorAccent"/>
 
         <TextView
             android:id="@+id/period_txt_view"
