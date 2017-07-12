@@ -39,7 +39,7 @@
             android:padding="16dp"
             android:textSize="20sp"
             android:gravity="center"
-            android:text="slack channel: #android"
+            android:text="Slack channel: #android"
             android:textColor="#ffffff"
             android:background="@color/colorAccent"/>
 
@@ -51,7 +51,7 @@
             android:padding="16dp"
             android:textSize="20sp"
             android:gravity="center"
-            android:text="period: ~7/23"
+            android:text="Period: ~7/23"
             android:textColor="#ffffff"
             android:background="@color/colorPrimary"/>
 
