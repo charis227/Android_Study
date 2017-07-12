@@ -31,5 +31,15 @@
             android:textColor="#ffffff"
             android:background="@color/colorPrimaryDark" />
 
+        <TextView
+            android:id="@+id/channel_txt_view"
+            android:layout_below="@id/name_txt_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:textSize="20sp"
+            android:layout_centerHorizontal="true"
+            android:text="- slack channel: #android"/>
+
     </RelativeLayout>
 </android.support.constraint.ConstraintLayout>
