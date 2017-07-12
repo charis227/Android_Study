@@ -20,8 +20,16 @@
             android:scaleType="center"/>
 
         <TextView
-            android:layout_width="wrap_content"
+            android:id="@+id/name_txt_view"
+            android:layout_below="@id/summer_img_view"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="" />
+            android:padding="16dp"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:text="Android Study"
+            android:textColor="#ffffff"
+            android:background="@color/colorPrimaryDark" />
+
     </RelativeLayout>
 </android.support.constraint.ConstraintLayout>
