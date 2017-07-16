@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Quiz App</string>
     <string name="name">name</string>
     <string name="name_hint">Input your name</string>
@@ -30,5 +30,5 @@
     <string name="total_score">Total score: </string>
     <string name="quiz">Quize</string>
     <string name="your_result">Your result: </string>
-    <string name="result">Result from </string>
+    <string name="user_name">Result from <xliff:g id="name" example="Emily">%s</xliff:g></string>
 </resources>
