@@ -25,4 +25,10 @@
     <string name="quiz3_answer2">answer 2</string>
     <string name="quiz3_answer3">answer 3</string>
     <string name="quiz3_answer4">answer 4</string>
+
+    <!--string for result string-->
+    <string name="total_score">Total score: </string>
+    <string name="quiz">Quize</string>
+    <string name="your_result">Your result: </string>
+    <string name="result">Result from </string>
 </resources>
