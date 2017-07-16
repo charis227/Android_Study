@@ -75,6 +75,10 @@ public class MainActivity extends AppCompatActivity {
 
         result += getString(R.string.total_score)+score+"/3\n";
 
+        if(score==3){
+            result += "\n"+getString(R.string.congratulation);
+        }
+
         return result;
     }
 }

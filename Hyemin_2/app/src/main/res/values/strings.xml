@@ -30,4 +30,7 @@
     <string name="total_score">Total score: </string>
     <string name="quiz">Quiz</string>
     <string name="user_name">Result from <xliff:g id="name" example="Emily">%s</xliff:g></string>
+
+    <!--string for congratulation in case of perfect clear-->
+    <string name="congratulation">Congratulation! You got perfect score!</string>
 </resources>
