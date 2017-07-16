@@ -13,128 +13,128 @@
 
         <GridLayout
             android:id="@+id/name_grid_layout"
-            android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
 
             <TextView
+                style="@style/TextViewTheme"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/name"
-                style="@style/TextViewTheme"/>
+                android:text="@string/name" />
 
             <EditText
                 android:id="@+id/name_edit_txt"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_columnWeight="1"
-                android:hint="@string/name_hint"/>
+                android:hint="@string/name_hint" />
         </GridLayout>
 
         <GridLayout
             android:id="@+id/quiz_grid_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:layout_below="@id/name_grid_layout"
             android:layout_marginTop="16dp"
-            android:orientation="vertical"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:orientation="vertical">
 
             <TextView
+                style="@style/TextViewTheme"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/quiz1"
-                style="@style/TextViewTheme"/>
+                android:text="@string/quiz1" />
 
-            <RadioGroup
-                android:padding="8dp">
-                <RadioButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/quiz1_answer1"/>
+            <RadioGroup style="@style/quizRadioGroup">
 
                 <RadioButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/quiz1_answer2"/>
+                    android:text="@string/quiz1_answer1" />
 
                 <RadioButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/quiz1_answer3"/>
+                    android:text="@string/quiz1_answer2" />
 
                 <RadioButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/quiz1_answer4"/>
+                    android:text="@string/quiz1_answer3" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/quiz1_answer4" />
             </RadioGroup>
 
             <TextView
+                style="@style/TextViewTheme"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/quiz2"
-                style="@style/TextViewTheme"/>
+                android:text="@string/quiz2" />
 
-            <RadioGroup
-                android:padding="8dp">
-                <RadioButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/quiz2_answer1"/>
+            <RadioGroup style="@style/quizRadioGroup">
 
                 <RadioButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/quiz2_answer2"/>
+                    android:text="@string/quiz2_answer1" />
 
                 <RadioButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/quiz2_answer3"/>
+                    android:text="@string/quiz2_answer2" />
 
                 <RadioButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/quiz2_answer4"/>
+                    android:text="@string/quiz2_answer3" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/quiz2_answer4" />
             </RadioGroup>
 
             <TextView
+                style="@style/TextViewTheme"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/quiz3"
-                style="@style/TextViewTheme"/>
+                android:text="@string/quiz3" />
 
-            <RadioGroup
-                android:padding="8dp">
-                <RadioButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/quiz3_answer1"/>
+            <RadioGroup style="@style/quizRadioGroup">
 
                 <RadioButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/quiz3_answer2"/>
+                    android:text="@string/quiz3_answer1" />
 
                 <RadioButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/quiz3_answer3"/>
+                    android:text="@string/quiz3_answer2" />
 
                 <RadioButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/quiz3_answer4"/>
+                    android:text="@string/quiz3_answer3" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/quiz3_answer4" />
             </RadioGroup>
         </GridLayout>
 
         <Button
-            android:layout_below="@id/quiz_grid_layout"
-            android:layout_alignParentRight="true"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/quiz_grid_layout"
             android:background="#212b40"
             android:text="@string/submit"
-            android:textColor="#ffffff"
-            android:textAllCaps="true"/>
+            android:textAllCaps="true"
+            android:textColor="#ffffff" />
     </RelativeLayout>
 </ScrollView>
