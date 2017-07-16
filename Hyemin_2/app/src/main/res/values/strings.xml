@@ -2,9 +2,18 @@
     <string name="app_name">Quiz App</string>
     <string name="name">name</string>
     <string name="name_hint">Input your name</string>
+
+    <!--string for quiz1-->
     <string name="quiz1">1. quiz 1</string>
     <string name="quiz1_answer1">answer 1</string>
     <string name="quiz1_answer2">answer 2</string>
     <string name="quiz1_answer3">answer 3</string>
     <string name="quiz1_answer4">answer 4</string>
+
+    <!--string for quiz2-->
+    <string name="quiz2">2. quiz 2</string>
+    <string name="quiz2_answer1">answer 1</string>
+    <string name="quiz2_answer2">answer 2</string>
+    <string name="quiz2_answer3">answer 3</string>
+    <string name="quiz2_answer4">answer 4</string>
 </resources>
