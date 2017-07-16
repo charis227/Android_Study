@@ -31,13 +31,13 @@ public class MainActivity extends AppCompatActivity {
         for(int i=0; i<quiz.length; i++) {
             if(quiz[i].isChecked()) {
                 result += "Quiz"+(i+1)+": O\n";
-                score += 20;
+                score += 1;
             }
             else {
                 result += "Quiz"+(i+1)+": X\n";
             }
         }
 
-        result += "Total score: "+score+"/100\n";
+        result += "Total score: "+score+"/3\n";
     }
 }
