@@ -20,7 +20,16 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void submitQuiz(View view){
-        
+        String name = getName();
+        String result = getResult();
+
+        Intent intent = new Intent(Intent.ACTION_SENDTO);
+        intent.setData(Uri.parse("mailto:")); // only email apps should handle this
+        intent.putExtra(Intent.EXTRA_SUBJECT, name+"'s Quiz Result");
+        intent.putExtra(Intent.EXTRA_TEXT, result);
+        if (intent.resolveActivity(getPackageManager()) != null) {
+            startActivity(intent);
+        }
     }
 
     private String getName(){
