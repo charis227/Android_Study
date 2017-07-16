@@ -60,9 +60,9 @@ public class MainActivity extends AppCompatActivity {
         String result="";
         score = 0;
 
-        quiz[0] = (RadioButton) findViewById(R.id.correct_answer1);
-        quiz[1] = (RadioButton) findViewById(R.id.correct_answer2);
-        quiz[2] = (RadioButton) findViewById(R.id.correct_answer3);
+        quiz[0] = (RadioButton) findViewById(R.id.radio_correct_answer1);
+        quiz[1] = (RadioButton) findViewById(R.id.radio_correct_answer2);
+        quiz[2] = (RadioButton) findViewById(R.id.radio_correct_answer3);
 
         for(int i=0; i<quiz.length; i++) {
             if(quiz[i].isChecked()) {

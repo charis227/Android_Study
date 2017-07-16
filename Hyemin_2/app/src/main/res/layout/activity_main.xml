@@ -48,7 +48,7 @@
             <RadioGroup style="@style/quizRadioGroup">
 
                 <RadioButton
-                    android:id="@+id/correct_answer1"
+                    android:id="@+id/radio_correct_answer1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/quiz1_answer1" />
@@ -83,7 +83,7 @@
                     android:text="@string/quiz2_answer1" />
 
                 <RadioButton
-                    android:id="@+id/correct_answer2"
+                    android:id="@+id/radio_correct_answer2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/quiz2_answer2" />
@@ -118,7 +118,7 @@
                     android:text="@string/quiz3_answer2" />
 
                 <RadioButton
-                    android:id="@+id/correct_answer3"
+                    android:id="@+id/radio_correct_answer3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/quiz3_answer3" />
