@@ -96,7 +96,45 @@
                     android:layout_height="wrap_content"
                     android:text="@string/quiz2_answer4"/>
             </RadioGroup>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/quiz3"
+                style="@style/TextViewTheme"/>
+
+            <RadioGroup
+                android:padding="8dp">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/quiz3_answer1"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/quiz3_answer2"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/quiz3_answer3"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/quiz3_answer4"/>
+            </RadioGroup>
         </GridLayout>
 
+        <Button
+            android:layout_below="@id/quiz_grid_layout"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#212b40"
+            android:text="@string/submit"
+            android:textColor="#ffffff"
+            android:textAllCaps="true"/>
     </RelativeLayout>
 </ScrollView>
