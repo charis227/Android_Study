@@ -25,4 +25,5 @@
     <string name="submit">제출</string>
     <string name="total_score">"합계: "</string>
     <string name="user_name"><xliff:g id="name" example="미나">%s</xliff:g>의 결과</string>
+    <string name="quiz">문제</string>
 </resources>
