@@ -11,7 +11,6 @@ import android.widget.RadioButton;
 public class MainActivity extends AppCompatActivity {
 
     int score = 0;
-    String result = "";
     RadioButton quiz[] = new RadioButton[3];
 
     @Override
@@ -29,7 +28,9 @@ public class MainActivity extends AppCompatActivity {
         return name.getText().toString();
     }
 
-    private void getResult(){
+    private String getResult(){
+        String result="";
+
         quiz[0] = (RadioButton) findViewById(R.id.correct_answer1);
         quiz[1] = (RadioButton) findViewById(R.id.correct_answer2);
         quiz[2] = (RadioButton) findViewById(R.id.correct_answer3);
@@ -47,5 +48,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
         result += "Total score: "+score+"/3\n";
+
+        return result;
     }
 }
