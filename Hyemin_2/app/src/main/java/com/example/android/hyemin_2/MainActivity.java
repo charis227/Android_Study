@@ -1,7 +1,10 @@
 package com.example.android.hyemin_2;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.EditText;
 import android.widget.RadioButton;
 
@@ -17,8 +20,13 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void submitQuiz(){
+    public void submitQuiz(View view){
+        
+    }
 
+    private String getName(){
+        EditText name = (EditText) findViewById(R.id.name_edit_txt);
+        return name.getText().toString();
     }
 
     private void getResult(){
