@@ -63,8 +63,6 @@ public class MainActivity extends AppCompatActivity {
         quiz[1] = (RadioButton) findViewById(R.id.correct_answer2);
         quiz[2] = (RadioButton) findViewById(R.id.correct_answer3);
 
-        result += getString(R.string.your_result)+"\n\n";
-
         for(int i=0; i<quiz.length; i++) {
             if(quiz[i].isChecked()) {
                 result += getString(R.string.quiz)+(i+1)+": O\n";
