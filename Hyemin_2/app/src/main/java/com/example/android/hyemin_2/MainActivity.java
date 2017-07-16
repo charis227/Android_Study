@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
      * @param score         quiz score
      * @param quiz[]        each quiz's correct answer RadioButton
      */
-    int score = 0;
+    int score;
     RadioButton quiz[] = new RadioButton[3];
 
     @Override
@@ -58,6 +58,7 @@ public class MainActivity extends AppCompatActivity {
      */
     private String getResult(){
         String result="";
+        score = 0;
 
         quiz[0] = (RadioButton) findViewById(R.id.correct_answer1);
         quiz[1] = (RadioButton) findViewById(R.id.correct_answer2);
