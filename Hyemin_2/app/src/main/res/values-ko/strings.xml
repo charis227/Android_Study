@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string name="name">이름</string>
+    <string name="name_hint">이름을 입력하세요</string>
+    <string name="quiz1">1. 첫 번째 문제</string>
+    <string name="quiz1_answer1">답 1</string>
+    <string name="quiz1_answer2">답 2</string>
+    <string name="quiz1_answer3">답 3</string>
+    <string name="quiz1_answer4">답 4</string>
+    <string name="quiz2">2. 두 번째 문제</string>
+    <string name="quiz2_answer1">답 1</string>
+    <string name="quiz2_answer2">답 2</string>
+    <string name="quiz2_answer3">답 3</string>
+    <string name="quiz2_answer4">답 4</string>
+    <string name="quiz3">3. 세 번째 문제</string>
+    <string name="quiz3_answer1">답 1</string>
+    <string name="quiz3_answer2">답 2</string>
+    <string name="quiz3_answer3">답 3</string>
+    <string name="quiz3_answer4">답 4</string>
+    <string name="submit">제출</string>
+</resources>
